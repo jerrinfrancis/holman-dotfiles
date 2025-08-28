@@ -35,7 +35,7 @@ setup_gitconfig () {
     git_credential='cache'
     if [ "$(uname -s)" == "Darwin" ]
     then
-      git_credential='osxkeychain'
+      git_credential='git-credential-manager'
     fi
 
     user ' - What is your github author name?'
