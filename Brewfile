@@ -5,7 +5,6 @@ tap "hashicorp/tap"
 
 brew 'doctl'
 brew 'ffmpeg'
-brew 'git-credential-manager'
 brew 'go'
 brew 'helm'
 brew 'imagemagick'
@@ -20,6 +19,7 @@ brew 'watch'
 brew 'wget'
 brew 'yt-dlp'
 
+cask 'git-credential-manager'
 cask '1password'
 cask 'android-platform-tools'
 cask 'diffusionbee'
