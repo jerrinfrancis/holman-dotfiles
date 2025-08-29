@@ -3,6 +3,7 @@ cask_args appdir: '/Applications'
 tap 'homebrew/bundle'
 tap "hashicorp/tap"
 
+brew 'coreutils'
 brew 'doctl'
 brew 'ffmpeg'
 brew 'go'
